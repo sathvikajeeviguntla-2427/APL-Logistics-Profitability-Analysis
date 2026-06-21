@@ -16,7 +16,16 @@ st.set_page_config(
 # LOAD DATA
 # ==================================================
 
-df = pd.read_csv("cleaned_APL_Logistics.csv", encoding="latin1")
+from pathlib import Path
+
+@st.cache_data
+def load_data():
+    csv_path = Path(__file__).parent / "cleaned_APL_Logistics.csv"
+    return pd.read_csv(csv_path, encoding="latin1")
+
+df = load_data()
+st.write("CSV Loaded Successfully")
+st.write(df.shape)
 
 # ==================================================
 # FEATURE CHECKS
