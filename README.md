@@ -405,15 +405,6 @@ streamlit run dashboard/app.py
 
 ---
 
-## Author
-
-**Jeeviguntla Sathvika**
-
-Computer Science Undergraduate
-G. Pulla Reddy Engineering College (GPREC)
-
----
-
 ## License
 
 This project was developed for educational and analytical purposes as part of the Unified Mentor Program.
