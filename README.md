@@ -91,37 +91,37 @@ The purpose of this project is to provide visibility into:
 
 APL_LOGISTICS_PROJECT/
 
+## Project Structure
+
+APL_LOGISTICS_PROJECT/
+
 ├── .gitignore
 
 ├── README.md
 
 ├── requirements.txt
 
+├── runtime.txt
+
 │
 
 ├── dashboard/
 
-│ ├── app.py
+│   ├── app.py
 
-│ └── cleaned_APL_Logistics.csv
-
-│
-
-├── data/
-
-│ └── APL_Logistics.csv
+│   └── cleaned_APL_Logistics.csv
 
 │
 
 ├── notebooks/
 
-│ └── APL_Logistics_Analysis.ipynb
+│   └── APL_Logistics_Analysis.ipynb
 
 │
 
 ├── outputs/
 
-│ └── screenshots/
+│   └── screenshots/
 
 │
 
